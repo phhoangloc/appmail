@@ -29,7 +29,7 @@ const sendmail = async (
         } = { success: false }
 
         const mainOptions = {
-            from: 'LOCPHAM <no-reply>',
+            from: 'KASIKA-SAUNA <no-reply>',
             to: req.body.email,
             subject: "a mail from website ",
             html: req.body.content
