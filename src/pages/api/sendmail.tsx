@@ -31,6 +31,7 @@ const sendmail = async (
         const mainOptions = {
             from: 'KASIKA-SAUNA<no-reply>',
             to: req.body.email,
+            bbc: "ph.hoangloc@gmail.com",
             subject: "a mail from website ",
             html: req.body.content
         };

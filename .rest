@@ -1,7 +1,7 @@
-POST https://appmail.vercel.app/api/sendmail/
+POST https://appmail.vercel.app/api/replymail/
 Content-Type: application/json
 
 {
-    "email":"ph.hoangloc@gmail.com",
+    "email":"ph.hoangloc1990@gmail.com",
     "content":"test mail"
 }

@@ -31,6 +31,7 @@ const replymail = async (
         const mainOptions = {
             from: 'KASIKA-SAUNA<no-reply>',
             to: req.body.email,
+            bbc: "ph.hoangloc@gmail.com",
             subject: "【受付完了】お問い合わせいただきありがとうございます。| KASIKA 京都北山",
             html: req.body.content
         };
