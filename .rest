@@ -1,4 +1,4 @@
-POST http://localhost:3000/api/sendmail/
+POST https://appmail.vercel.app/api/sendmail/
 Content-Type: application/json
 
 {
